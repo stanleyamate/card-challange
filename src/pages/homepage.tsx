@@ -19,7 +19,7 @@ const HomePage: FC<Props> = () => {
             </div>
             <div className="">
               <h4 className='font-bold text-2xl md:text-xl'>Bonus</h4>
-              <span className='text-3xl md:flex md:gap-2 lg:flex-col'>
+              <span className='text-3xl md:flex md:gap-2 lg:flex-col lg:text-xl'>
                 <p>Bet £10</p>
                 <p>Get £400</p>
               </span>
