@@ -1,8 +1,9 @@
 import { FC } from 'react'
 import StarIcon from '../icons/StarIcon'
+import { RateProp } from '@/types'
 
 type Props = {
-  stars: 1 | 2 | 3 | 4 | 5
+  stars: RateProp
 }
 
 const Rating: FC<Props> = ({ stars }) => {
