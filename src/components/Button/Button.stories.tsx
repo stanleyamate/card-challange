@@ -23,8 +23,8 @@ const meta: Meta<StoryProps> = {
       table: {
         type: { summary: "false" },
         defaultValue: { summary: "false" },
-        description: "Whether the button should take up the full width of its container"
       },
+      description: "Whether the button should take up the full width of its container"
     },
     variant: {
       control: {
@@ -33,9 +33,9 @@ const meta: Meta<StoryProps> = {
       options: ["primary", "secondary"],
       table: {
         type: { summary: "primary" },
-        description: "The button's visual style",
         defaultValue: { summary: "primary" },
-      }
+      },
+      description: "The button's visual style",
     },
     size: {
       control: {
@@ -44,9 +44,9 @@ const meta: Meta<StoryProps> = {
       options: ["sm", "md", "lg"],
       table: {
         type: { summary: "md" },
-        description: "The button's size",
         defaultValue: { summary: "md" },
       },
+      description: "The button's size",
     }
   }
 }
