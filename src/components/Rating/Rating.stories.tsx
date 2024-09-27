@@ -18,7 +18,7 @@ const meta: Meta<StoryProps> = {
 
       },
       default: 5,
-      description: "Whether the button should take up the full width of its container"
+      description: "The number of stars to display in the rating"
     },
   }
 }
