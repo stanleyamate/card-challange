@@ -21,8 +21,8 @@ const meta: Meta<StoryProps> = {
         type: "boolean",
       },
       table: {
-        type: { summary: "false" },
-        defaultValue: { summary: "false" },
+        type: { summary: "false | true" },
+        defaultValue: { summary: "false " },
       },
       description: "Whether the button should take up the full width of its container"
     },
@@ -32,7 +32,7 @@ const meta: Meta<StoryProps> = {
       },
       options: ["primary", "secondary"],
       table: {
-        type: { summary: "primary" },
+        type: { summary: "primary | secondary" },
         defaultValue: { summary: "primary" },
       },
       description: "The button's visual style",
@@ -43,10 +43,16 @@ const meta: Meta<StoryProps> = {
       },
       options: ["sm", "md", "lg"],
       table: {
-        type: { summary: "md" },
+        type: { summary: "sm | md | lg" },
         defaultValue: { summary: "md" },
       },
       description: "The button's size",
+    },
+    children: {
+      control: {
+        type: "text",
+      },
+      description: "The text inside the button",
     }
   }
 }
