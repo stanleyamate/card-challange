@@ -48,12 +48,6 @@ const meta: Meta<StoryProps> = {
       },
       description: "The button's size",
     },
-    children: {
-      control: {
-        type: "text",
-      },
-      description: "The text inside the button",
-    }
   }
 }
 
