@@ -14,6 +14,7 @@ const meta: Meta<StoryProps> = {
     onClick: fn()
   },
   component: Button,
+  tags: ["autodocs"],
   argTypes: {
     fullWidth: {
       control: {
@@ -24,8 +25,6 @@ const meta: Meta<StoryProps> = {
         defaultValue: { summary: "false" },
         description: "Whether the button should take up the full width of its container"
       },
-      default: false,
-      description: "Whether the button should take up the full width of its container"
     },
     variant: {
       control: {

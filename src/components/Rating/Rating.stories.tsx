@@ -6,6 +6,7 @@ type StoryProps = ComponentProps<typeof Rating>
 
 const meta: Meta<StoryProps> = {
   component: Rating,
+  tags: ["autodocs"],
   argTypes: {
     stars: {
       control: {
@@ -15,7 +16,6 @@ const meta: Meta<StoryProps> = {
       table: {
         type: { summary: "number" },
         defaultValue: { summary: "5" },
-
       },
       default: 5,
       description: "The number of stars to display in the rating"
